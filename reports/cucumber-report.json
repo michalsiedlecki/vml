@@ -1,0 +1,209 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "forgot-password-flow;user-requests-password-reset-and-verifies-email",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User requests password reset and verifies email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 864110459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the forgot password page",
+            "match": {
+              "location": "features/step_definitions/forgot-password.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1484691917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I accept cookies",
+            "match": {
+              "location": "features/step_definitions/cookies.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 713251334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill email",
+            "match": {
+              "location": "features/step_definitions/forgot-password.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318429417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the reset password link",
+            "match": {
+              "location": "features/step_definitions/forgot-password.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172763874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the message",
+            "match": {
+              "location": "features/step_definitions/forgot-password.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8576167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to gmail",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1986426042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter my Gmail email",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18325082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click Next",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103908332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter my Gmail password",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1442421792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click Next",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314268875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I open the email with subject change password",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3210240874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click change password button in the email",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106897582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be redirected to a URL containing \"https://www.mediaexpert.pl/reset/QktW4MlkR-V2adQnZeugrHbgC7-EdsVh_gCsE2zrJo0?utm_source=Mail-potwierdzenie&utm_medium=e-mail\"",
+            "match": {
+              "location": "features/step_definitions/gmail.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2303784041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 174509291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "forgot-password-flow",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Forgot Password Flow",
+    "tags": [],
+    "uri": "features/forgot-password.feature"
+  }
+]
