@@ -19,10 +19,4 @@ This repository was created as part of a recruitment task. It demonstrates two a
    - Checks for the password reset email  
    - Avoids front-end interactions  
 
-## 🚀 How to Run the Tests  
-
-```sh
-# Example commands (update according to your setup)
-npm install
-npm test
 
